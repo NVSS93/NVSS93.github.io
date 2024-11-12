@@ -1,0 +1,198 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+    background-color: red;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: left;
+    padding: 40px 20px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.intro h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+.intro p {
+    margin: 20px 0;
+    max-width: 600px;
+    margin-right: auto;
+    text-align: left;
+}
+
+.intro button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.intro button:hover {
+    background-color: #555;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.skills .skill {
+    width: 30%;
+    text-align: center;
+}
+
+.skills .skill h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.portfolio .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio .project {
+    width: 30%;
+    text-align: center;
+}
+
+.portfolio .project img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .project h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.testimonials .testimonial .rating {
+    color: gold;
+    font-size: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.contact .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact .social-icons a:hover {
+    text-decoration: underline;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+.mp {
+    padding: 12px 25px;
+    background-color: #41413f;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.mp:hover {
+    background-color: #ff0000;
+}
